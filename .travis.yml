@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: 'concerto'
     token:
-      secure: "dSmzLhIgiTfaAIwBMqNldzOykzupAQ9hURWJu9SjwsuA6I7O4HvgGepdG06tdUXDrrYCMW6UlSBmystL0jprLnhtoiCEQXQHFWxoz78455lCDlY6tXRCfMlse7SBYMS/xU1zA4PmiaimIIsUzTFC81XIWGlg6GbRSPxYqUL82HKGW2Kl3ZSdB67X8ezRlPxdDnZYvbwuZRNcDygCdzhFKpM81cOZI6079ZKFDcEiHJYhefDCGQVXLIBQdnkUAF2DZuZoVWheyHLiydO4xy7lyhb8aUg9gG8ATg2awUJtDrKcXIPVXt0u8ZvRaCY8RelN1HakMIhu1IMZm4yPtUE48pDgflmcXti/YKOFLCWf5WU+pZDEVL7OlQFL5mkSz17i6OXryAx5TstApZ83FRZPDAbd1reyX8IwXswxcgxq08CT1QLmMkYyrdtvydu+cj3HI/f8d2D+1YRs41rfkO44BKaEvQgilqNfwxVLDi0Tn/MIgQx7zKCc/x7UfNtoM4scLDozFPXbNZV0Nutnv6TSJymX41j6uYB7fFZ/tUXx96LKSbiIfVUQwn5prbyXRKIQkl6nx6L1jVT4oEQl1SyFHroufN6l/KpbLiXntTujLhzLPVfBsu3yNPtB6SDZ6ZaKeeDq8c3hUDMFN2P2PVPQioKsdpIYW/AIB4AaXwZE5l4="
+      secure: $SECURE
 jobs:
   include:
     - stage: build docker image
